@@ -23,11 +23,19 @@ body{
     width: 100%;
     display: block;
     font-size: 40px;
-    cursor: pointer
+    cursor: pointer;
+    -webkit-user-modify: read-only;
 }
 .row-menu:hover{
+    z-index: 100;
     background: #ffffff;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 .content-row-menu:hover{
     color: #269abc;
+}
+@media (max-width: 480px) {
+    .row-menu{
+        top: 10%;
+    }
 }

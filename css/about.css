@@ -1,0 +1,38 @@
+body{
+    margin:0px !important;
+}
+.page-about{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    height: 50%;
+    width: 100%;
+    background: #3e8f3e;
+}
+.back-nav{
+    float:left;
+    height: 100%;
+    width:5%;
+    background:#B9CAFF
+}
+.user-photo-box{
+    margin: 0 5%;
+    width: 20%;
+    background: #e38d13;
+}
+.user-photo{
+    width: 80%;
+    height: 80%;
+}
+.header{
+    float: right;
+    margin-right: 50%;
+    background-color: #a94442;
+}
+.user-description{
+    float: right;
+    margin-rigth: 50%;
+    background-color: #dca7a7;
+}
