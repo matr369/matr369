@@ -2,13 +2,13 @@ body{
     margin:0px !important;
 }
 .menu{
-    background: #269abc;
+    background: #00CED1;
     position: absolute;
     width: 100%;
     height: 100%;
 }
 .row-menu{
-    background: #269abc;
+    background: #00CED1;
     position: relative;
     top: 30%;
     text-align: center;
